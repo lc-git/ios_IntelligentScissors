@@ -14,6 +14,9 @@
 		E55FD10719E0A1C100BF06B5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E55FD10619E0A1C100BF06B5 /* Images.xcassets */; };
 		E55FD10A19E0A1C100BF06B5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E55FD10819E0A1C100BF06B5 /* LaunchScreen.xib */; };
 		E55FD11619E0A1C100BF06B5 /* IntelligentScissorsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E55FD11519E0A1C100BF06B5 /* IntelligentScissorsTests.m */; };
+		E55FD12519E0A2E900BF06B5 /* IntelligentScissors.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E55FD11F19E0A2E900BF06B5 /* IntelligentScissors.cpp */; };
+		E55FD12619E0A2E900BF06B5 /* UIImage+OpenCV.mm in Sources */ = {isa = PBXBuildFile; fileRef = E55FD12219E0A2E900BF06B5 /* UIImage+OpenCV.mm */; };
+		E55FD12A19E0A3C100BF06B5 /* fibheap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E55FD12819E0A3C100BF06B5 /* fibheap.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,12 @@
 		E55FD10F19E0A1C100BF06B5 /* IntelligentScissorsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IntelligentScissorsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E55FD11419E0A1C100BF06B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E55FD11519E0A1C100BF06B5 /* IntelligentScissorsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntelligentScissorsTests.m; sourceTree = "<group>"; };
+		E55FD11F19E0A2E900BF06B5 /* IntelligentScissors.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IntelligentScissors.cpp; sourceTree = "<group>"; };
+		E55FD12019E0A2E900BF06B5 /* IntelligentScissors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntelligentScissors.h; sourceTree = "<group>"; };
+		E55FD12119E0A2E900BF06B5 /* UIImage+OpenCV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+OpenCV.h"; sourceTree = "<group>"; };
+		E55FD12219E0A2E900BF06B5 /* UIImage+OpenCV.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "UIImage+OpenCV.mm"; sourceTree = "<group>"; };
+		E55FD12819E0A3C100BF06B5 /* fibheap.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = fibheap.cpp; sourceTree = "<group>"; };
+		E55FD12919E0A3C100BF06B5 /* fibheap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fibheap.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +90,12 @@
 		E55FD0F819E0A1C100BF06B5 /* IntelligentScissors */ = {
 			isa = PBXGroup;
 			children = (
+				E55FD11F19E0A2E900BF06B5 /* IntelligentScissors.cpp */,
+				E55FD12019E0A2E900BF06B5 /* IntelligentScissors.h */,
+				E55FD12119E0A2E900BF06B5 /* UIImage+OpenCV.h */,
+				E55FD12219E0A2E900BF06B5 /* UIImage+OpenCV.mm */,
+				E55FD12819E0A3C100BF06B5 /* fibheap.cpp */,
+				E55FD12919E0A3C100BF06B5 /* fibheap.h */,
 				E55FD0FD19E0A1C100BF06B5 /* AppDelegate.h */,
 				E55FD0FE19E0A1C100BF06B5 /* AppDelegate.m */,
 				E55FD10019E0A1C100BF06B5 /* ViewController.h */,
@@ -219,9 +234,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E55FD12519E0A2E900BF06B5 /* IntelligentScissors.cpp in Sources */,
 				E55FD10219E0A1C100BF06B5 /* ViewController.m in Sources */,
 				E55FD0FF19E0A1C100BF06B5 /* AppDelegate.m in Sources */,
 				E55FD0FC19E0A1C100BF06B5 /* main.m in Sources */,
+				E55FD12619E0A2E900BF06B5 /* UIImage+OpenCV.mm in Sources */,
+				E55FD12A19E0A3C100BF06B5 /* fibheap.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
